@@ -23,3 +23,31 @@ This project provides an API and streamlit application for predicting power outp
 - Relative Humidity (RH)
 
 The API is deployed using FastAPI, and a Streamlit app provides an interactive interface for users to input values and get predictions.
+
+# Requirements
+To set up and run this this projectc, you will need the following python packages:
+
+- 'fastapi'
+- 'uvicorn'
+- 'scikit-learn'
+- 'pandas'
+- 'joblib'
+- 'numpy'
+- 'streamlit'
+
+You can install these dependencies by running:
+
+```bash
+pip install -r requirements.text
+```
+
+## Getting Started
+Follow these steps to set up and run the project.
+
+1. Train and Save Model
+
+   Train a Linear Regression model using scikit-learn, and save the trained model to a file for deployment
+   ```bash
+   python linear_regression_model.py
+```
+2. 
