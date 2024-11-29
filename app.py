@@ -23,7 +23,7 @@ if st.button("Predict"):
     }
 
     # make api call
-    response = requests.post("http://localhost:8000/predict/docs", json=input_data)
+    response = requests.post("http://localhost:8000/predict/", json=input_data)
 
     if response.status_code == 200:
         prediction = response.json()["prediction"]
